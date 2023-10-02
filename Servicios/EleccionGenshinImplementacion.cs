@@ -31,5 +31,15 @@ namespace EleccionGenshin.Servicios
             return eleccionSeleccionada;
         }
 
+        public void mensajeBienvenida()
+        {
+
+            string mensajeB = "Hola buenas tardes, noches, dias";
+            Console.WriteLine(mensajeB);
+
+        }
+
+
+
     }
 }

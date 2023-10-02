@@ -17,5 +17,7 @@ namespace EleccionGenshin.Servicios
         /// </summary>
         public int implementacionMenu();
 
+        public void mensajeBienvenida();
+
     }
 }

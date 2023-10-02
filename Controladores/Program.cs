@@ -17,10 +17,13 @@ namespace EleccionGenshin.Controladores
         {
 
             EleccionGenshinInterfaz eg = new EleccionGenshinImplementacion();
+            eg.mensajeBienvenida();
             eg.implementacionMenu();
 
             bool cerrarMenu = false;
             int opcionSeleccionada;
+
+            
 
             while (!cerrarMenu)
             {
