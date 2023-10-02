@@ -13,9 +13,9 @@ namespace EleccionGenshin.Servicios
     internal interface EleccionGenshinInterfaz
     {
         /// <summary>
-        /// Metodo que implementara por consola el menu
+        /// llamada al metodo que implementara por consola el menu
         /// </summary>
-        public void implementacionMenu();
+        public int implementacionMenu();
 
     }
 }
